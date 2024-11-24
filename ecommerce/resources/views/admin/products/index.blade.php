@@ -9,8 +9,8 @@ $categories = App\Models\Category::all();
 
         <!-- Add Product Button -->
         <div class="text-right mb-4">
-            <a href="{{ route('products.create') }}" class="btn shadow-sm" style="background-color: #43707b; color: white; border: none;">
-                + Add New Product
+            <a href="{{ route('products.create') }}" class="btn shadow-sm fas fa-plus-circle" style="background-color: #43707b; color: white; border: none;">
+                Add New Product
             </a>
         </div>
 

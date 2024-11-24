@@ -21,7 +21,7 @@
                 <div class="category-section">
                     <div class="d-flex justify-content-between align-items-center mb-4">
                         <h3 class="category-title">Categories</h3>
-                        <a href="{{ route('categories.create') }}" style="background-color: #43707b; color: white; border: none;"  class="btn shadow-sm">+ Add Category</a>
+                        <a href="{{ route('categories.create') }}" style="background-color: #43707b; color: white; border: none;"  class="btn shadow-sm fas fa-plus-circle"> Add Category</a>
                     </div>
                     <div class="card shadow-sm">
                         <div class="card-body">
